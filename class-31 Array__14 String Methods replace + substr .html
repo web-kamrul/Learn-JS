@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // replace Can remove a part from the Element and replace another part in this position
+    var country = "BANGLADESH"
+    document.write (country.replace("DESH","-deshi")+"<br>");
+
+    // substr দিয়ে একটা নির্দিষ্ট অংশ পর্যন্ত কোনো স্ট্রিংকে আমরা কেটে রেখে দিতে পারি।  
+    var clientName = "johndoe"
+    // 1 means j (index number) কে বাদ দিয়ে েএখান থেকে কাটা শুরু হবে।  
+    // 3 means j এর পরে এই ohn এই তিনটা শব্দ থেকে যাবে আর বাকিগুলো মুছে যাবে। 
+    document.write (clientName.substr(1,3));
+    </script>
+</body>
+</html>

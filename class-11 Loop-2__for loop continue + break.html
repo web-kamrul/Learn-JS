@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<script>
+  var i;
+  for (i=0;i<4;i=i+1) {
+    document.write (i+"<button> Just For </button> <br>");
+  }
+
+//continue use to skip a cetain part of loop
+  var i;
+  for (i=0;i<6;i=i+1) {
+    if(i==3){
+        continue;
+    }
+    document.write (i+"<button> Continue to Skip </button> <br>");
+  }
+
+  //break use to stop loop in a point
+  for (i=0;i<10;i=i+1) {
+    if(i===2){
+        break;
+    }
+    document.write (i+"<button> Stop by break </button> <br>");
+  }
+
+</script>
+</body>
+</html>

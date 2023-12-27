@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        /* var ব্যবহার করে একাধিকবার var ডিক্লেয়ার করে
+        অথবা শর্টে var কে ধরে তার মান পরিবর্তন করা যায়। 
+        var m = "Adil" বা 
+        m = "Kaifa"
+        দুইভাবেই চেন্জ করা যাবে।
+        */
+        var m = "Abir"
+        var m = "Adil"
+        m = "Kaifa"
+        document.write(m + "<br>");
+
+        /* let ব্যবহার করে একাধিকবার var ডিক্লেয়ার করে তার মান পরিবর্তন করা যায় না  
+        শুধু শর্টে var কে ধরে তার মান পরিবর্তন করা যায় 
+        m = "Kaifa"
+        একভাবে চেন্জ করা যাবে।
+        */
+        let n = "Suhana"
+        n = "Kamrul"
+        document.write(n + "<br>");
+
+        /* const ব্যবহার করলে আর কোনো ভাবেই মান পরিবর্তন করা যাবে না । কারণ এটি একটি ধ্রুবক সংখ্যা */
+        const o = "Suhana"
+        document.write(o + "<br><br>");
+
+
+        /* This 5 type of Data Type Mostly use in JS
+        1. Number
+        2. String
+        3. Boolean
+        4. Undefined
+        5. Null
+        */
+
+        var myString = "Hello, world!";
+        var myNumber = 42;
+        var isTrue = true;
+        var isFalse = false;
+        var myVariable;
+        var noValue = null;
+
+        document.write("String: " + myString + "<br>");
+        document.write("Number: " + myNumber + "<br>");
+        document.write("Boolean (true): " + isTrue + "<br>");
+        document.write("Boolean (false): " + isFalse + "<br>");
+        document.write("Undefined Variable: " + myVariable + "<br>");
+        document.write("Null: " + noValue + "<br> <br><br>"); 
+
+
+
+
+        // For check the data type we use typeof
+        var a = "kamrul";
+        var b = 60;
+        var c=true;
+        var d=false;
+        var e;
+        var f=null;
+
+        document.write(typeof a+"<br>");
+        document.write(typeof b+"<br>");
+        document.write(typeof c+"<br>");
+        document.write(typeof d+"<br>");
+        document.write(typeof e+"<br>");
+        document.write(typeof f+"<br>");
+
+      </script>
+
+</body>
+</html>

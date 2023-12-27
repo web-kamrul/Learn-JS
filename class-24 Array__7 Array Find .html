@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //array.find নির্দিষ্ট শর্তের মাধ্যমে যে রেজাল্ট আসে তার ১ম উপাদানকে দেখাবে।
+       var veccTotalRun= ["12", "24", "29", "33", "40", "45", "55", "50", "26", "14"];
+       var getRun = veccTotalRun.find (function(value){
+        return value > 40
+       })
+       document.write (getRun+"<br><br>");
+
+       //array.findIndex নির্দিষ্ট শর্তের মাধ্যমে যে রেজাল্ট আসে তার Index নাম্বার বলে দেয়।
+        var totalRunBangladesh = [12, 24, 29, 33, 40, 45];
+        var index = totalRunBangladesh.findIndex(function (value) {
+        return value > 25;
+        });
+        document.write("Index of the first element greater than 25: " + index);
+
+
+    </script>
+</body>
+</html>
